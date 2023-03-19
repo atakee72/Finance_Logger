@@ -4,6 +4,9 @@ body {
     "Lucida Sans", Arial, sans-serif;
   max-width: 960px;
   margin: 0 auto;
+  background-image: url('https://cdn.discordapp.com/attachments/1077217567556509719/1087094401102262373/atakee_a_background_image_for_a_payment__invoice_interface_web__4b7fa4d4-8995-407b-bc8e-86ea40997c56.png');
+			background-repeat: no-repeat;
+			background-size: cover;
 }
 h1 {
   margin: 40px auto;
@@ -18,10 +21,19 @@ ul {
   justify-items: start;
 
 }
+.main_titel {
+  background-color: #e8baba;
+  margin: 5% 30%
+}
 li {
   padding: 6px 10px;
-  border: 1px solid #0abaff;
+  /* border: 2px solid #0abaff; */
   margin: 10px auto;
+  background-color: #e8baba;
+  min-width: 80%;
+  max-width: 100%;
+  min-height: 10%;
+  max-height: 15%;
 }
 li h4 {
   color: #0abaff;
@@ -33,7 +45,7 @@ li p {
   margin: 8px 0 0;
 }
 footer {
-  background: #eee;
+  background: #e8baba;
   padding: 60px;  
 }
 form {

@@ -1,4 +1,4 @@
-import { HasFormatter } from "../interfaces/hasFormatter.js";
+import { HasFormatter } from "../interfaces/HasFormatter.js";
 
 export class Payment implements HasFormatter {
   readonly recipient: string; // only read inside and outside

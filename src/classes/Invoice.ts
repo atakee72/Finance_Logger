@@ -1,4 +1,4 @@
-import { HasFormatter } from "../interfaces/hasFormatter.js";
+import { HasFormatter } from "../interfaces/HasFormatter.js";
 
 export class Invoice implements HasFormatter {
   readonly client: string; // only read inside and outside
