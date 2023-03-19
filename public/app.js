@@ -19,6 +19,8 @@ import { Payment } from "./classes/Payment.js";
 // invoices.forEach((inv) => {
 //   console.log(inv.client, /*inv.details,*/ inv.amount, inv.format()); // inv.details is not reachable, it's private, see above, but through the methode it is still available
 // });
+
+//gonna have all these elsewhere
 const form = document.querySelector(".new-item-form");
 // console.log(form.children);
 const type = document.querySelector("#type");
